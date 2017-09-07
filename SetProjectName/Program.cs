@@ -14,6 +14,9 @@ namespace SetProjectName
         static int countFileContent = 0;
         static int countDir = 0;
 
+        /// <summary>
+        /// Excluded extension, to complete if required
+        /// </summary>
         static string[] excludedExtension = { ".dll", ".jpg ", ".jpeg ", ".png", ".gif", ".zip", ".pdb", ".cache", ".exe", ".jar", ".mov", ".mp3", ".pfx", ".docx", ".xlsx", ".suo", ".ide" };
 
         /// <summary>
